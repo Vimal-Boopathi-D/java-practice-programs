@@ -80,7 +80,7 @@ public static  void main(String[] args) {
 	System.out.println(s2.strip()); // "hello"
 	
 	//compareTo(), compareToIgnoreCase()
-	System.out.println("apple".compareTo("banana"));  // Negative
+	System.out.println("apple".compareTo("dpple"));  // Negative//-3 by Assci value //32 if "apple".compareTo("Apple")
 	System.out.println("apple".compareToIgnoreCase("Apple"));  // 0
 	
 	//substring(start) / substring(start, end)

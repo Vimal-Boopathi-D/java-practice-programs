@@ -27,11 +27,10 @@ public class StringBasics {
 		
 		String str6="java";//scp area
 		String str7=new String("java");//heap area but the reference is sored in scp
-		System.out.println(str6==str7);//false because even the value are same unlike literal way the memory adresss is different because non literal way stores in heap area 
+		System.out.println("Adress Comparision: "+(str6==str7));//false because even the value are same unlike literal way the memory adresss is different because non literal way stores in heap area 
 		
 		String si=str7.intern();//gets reference of that heap area in scp
 		System.out.println(str6==si);
 		
 	}
-
 }
