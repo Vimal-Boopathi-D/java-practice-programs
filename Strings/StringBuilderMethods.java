@@ -5,6 +5,11 @@ public class StringBuilderMethods {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		StringBuilder sb = new StringBuilder("Hello");
+		StringBuilder sb1=new StringBuilder();	
+		StringBuilder sb2=new StringBuilder("java");
+		//same String methods like equals,replace,hashCode etc..
+		
+
 		
 		//append(String)
 		sb.append(" World");
@@ -33,9 +38,31 @@ public class StringBuilderMethods {
 		//setChar(index,character)
 		sb.setCharAt(0, 'Y');
 		System.out.println(sb);
-
-
-
+		
+		//setCharAt()
+		sb.setCharAt(0, 'a');
+		System.out.println(sb);
+		
+		
+		//capacity()
+		System.out.println(sb.capacity());
+		System.out.println(sb1.capacity());
+		
+		//ensureCapacity()
+		sb1.ensureCapacity(100);
+		System.out.println(sb1.capacity());
+		System.out.println(sb2.capacity());
+		
+		//toString()
+		String ts=sb2.toString();
+		System.out.println(ts);
+		
+		//lastIndexOf()
+        StringBuilder sb3 = new StringBuilder("hello world, hello java");
+        
+        int index = sb3.lastIndexOf("hello");
+        
+        System.out.println("Last occurrence of 'hello' is at index: " + index);
 	}
 
 }
