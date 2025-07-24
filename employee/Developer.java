@@ -1,4 +1,4 @@
-package com.employee;
+package employee;
 
  class Developer extends EmployeeDetails {
 

@@ -120,7 +120,7 @@ public static  void main(String[] args) {
 	System.out.println("😊".codePointAt(0));  // 128522
 	
 	//intern()
-	String a = new String("hello").intern(); 
+	String a = new String("hello").intern(); //to get reference of value stored in keep are which is stored in scp area 
 	System.out.println(a);// goes to SCP
 }
 }

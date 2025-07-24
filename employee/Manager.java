@@ -1,4 +1,4 @@
-package com.employee;
+package employee;
 
 class Manager extends EmployeeDetails {
 Manager(String name, int age, int empId, double salary) {

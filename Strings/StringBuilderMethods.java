@@ -7,10 +7,11 @@ public class StringBuilderMethods {
 		StringBuilder sb = new StringBuilder("Hello");
 		StringBuilder sb1=new StringBuilder();	
 		StringBuilder sb2=new StringBuilder("java");
+		
+		
 		//same String methods like equals,replace,hashCode etc..
 		
 
-		
 		//append(String)
 		sb.append(" World");
 		System.out.println(sb); //Hello World

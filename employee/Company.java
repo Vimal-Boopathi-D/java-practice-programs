@@ -1,4 +1,4 @@
-package com.employee;
+package employee;
 
 public class Company {
 

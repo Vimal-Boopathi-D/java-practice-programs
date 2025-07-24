@@ -1,4 +1,4 @@
-package com.employee;
+package employee;
 
 abstract class EmployeeDetails extends Person{
 int empId;

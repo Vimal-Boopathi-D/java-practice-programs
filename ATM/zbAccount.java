@@ -1,4 +1,4 @@
-package com.ATM;
+package ATM;
 
 class zbAccount extends Bank{
 	zbAccount(String acHolder,double balance){

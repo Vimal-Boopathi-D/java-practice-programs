@@ -1,4 +1,4 @@
-package com.ATM;
+package ATM;
 
 class svAccount extends Bank{
 		svAccount(String acHolder,double balance){

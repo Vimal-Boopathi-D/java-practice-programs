@@ -1,4 +1,4 @@
-package com.ATM;
+package ATM;
 
 	abstract class Bank{
 		String acHolder;

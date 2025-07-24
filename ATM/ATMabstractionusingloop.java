@@ -1,4 +1,4 @@
-package com.ATM;
+package ATM;
 
 import java.util.Scanner;
 

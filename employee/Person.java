@@ -1,4 +1,4 @@
-package com.employee;
+package employee;
 
 abstract class Person {
 String name;
