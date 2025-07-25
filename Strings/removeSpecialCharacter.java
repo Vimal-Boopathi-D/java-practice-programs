@@ -21,7 +21,7 @@ public class removeSpecialCharacter {
                 }
             }
         }
-
+        
         System.out.println(letters + " " + totalCount);
     }
 }
